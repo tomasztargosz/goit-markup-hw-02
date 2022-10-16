@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styless.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,138 +20,162 @@
     />
   </head>
   <body>
-    <header>
-      <a href="index.html" class="studioname"
-        >Web<span class="highlight">Studio</span></a
-      >
-      <nav>
-        <ul class="topline">
-          <li><a href="#">Agencja</a></li>
-          <li><a href="portfolio.html" class="portfolio">Portfolio</a></li>
-          <li><a href="#">Kontakty</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li>
-          <a class="mailadress" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a class="telnumber" href="tel:+48111111111">+48111111111</a></li>
-      </ul>
-    </header>
+    <div class="logo">
+      <header class="header container">
+        <a href="./index.html" class="no-underline logo-style"
+          ><span class="text-blue">Web</span>Studio</a
+        >
 
-    <main>
-      <ul class="buttons">
-        <li><button class="button">Wszystkie</button></li>
-        <li><button class="button">Strony</button></li>
-        <li><button class="button">Aplikacje</button></li>
-        <li><button class="button">Dizajn</button></li>
-        <li><button class="button">Marketing</button></li>
-      </ul>
-      <div class="allimagesproject">
-        <ul class="imagesproject">
+        <nav>
+          <ul class="nav-style nav-list">
+            <li>
+              <a href="index.htlm" class="text-blue link-style no-underline"
+                >Agencja</a
+              >
+            </li>
+            <li>
+              <a href="portfolio.html" class="text-blue link-style no-underline"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="kontakt.html" class="text-blue link-style no-underline"
+                >Kontakty</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts nav-list">
           <li>
-            <img src="./images/img.jpg" alt="laptop" width="370" height="294" />
-            <p class="imagesdescription">Technocrack</p>
-            <p class="signdescription">Strona internetowa</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-2.jpg"
-              alt="gracze NBA"
-              width="370"
-              height="294"
-            />
-            <p class="imagesdescription">Grafika New Orlean vs Golden Star</p>
-            <p class="signdescription">Dizajn</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-3.jpg"
-              alt="logo restauracji"
-              width="370"
-              height="294"
-            />
-            <p class="imagesdescription">Restauracja Seafood</p>
-            <p class="signdescription">Aplikacja</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-4.jpg"
-              alt="słuchawki"
-              width="370"
-              height="294"
-            />
-            <p class="imagesdescription">Projekt Prime</p>
-            <p class="signdescription">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-5.jpg"
-              alt="boxes"
-              width="370"
-              height="294"
-            />
-            <p class="imagesdescription">Projekt Boxes</p>
-            <p class="signdescription">Aplikacja</p>
-          </li>
-
-          <li>
-            <img
-              src="./images/img-6.jpg"
-              alt="monitor"
-              width="370"
-              height="294"
-            />
-            <p class="imagesdescription">Inspiration has no Borders</p>
-            <p class="signdescription">Strona internetowa</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-7.jpg"
-              alt="newspaper"
-              width="370"
-              height="294"
-            />
-            <p class="imagesdescription">Magazyn Limited Edition</p>
-            <p class="signdescription">Dizajn</p>
-          </li>
-          <li>
-            <img src="./images/img-8.jpg" alt="tag" width="370" height="294" />
-            <p class="imagesdescription">Projekt LAB</p>
-            <p class="signdescription">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-9.jpg"
-              alt="laptop"
-              width="370"
-              height="294"
-            />
-            <p class="imagesdescription">Growing Business</p>
-            <p class="signdescription">Aplikacja</p>
-          </li>
-        </ul>
-      </div>
-    </main>
-
-    <footer class="backround">
-      <a class="studioname">Web<span class="highlightwhite">Studio</span></a>
-
-      <address>
-        <p class="cityadress">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <ul>
-          <li>
-            <a class="mailadress" href="mailto:info@example.com"
-              >info@example.com></a
+            <a
+              href="mailto:info@devstudio.com"
+              class="contact-link no-underline text-blue"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="telnumber" href="tel:+48111111111">+48 111 111 111></a>
+            <a
+              href="tel:+48111111111"
+              class="contact-link no-underline text-blue"
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
-      </address>
+      </header>
+    </div>
+
+    <main>
+      <div class="header-line-border"></div>
+      <ul class="buttons-nav container">
+        <li><button type="button" class="button">Wszystkie</button></li>
+        <li><button type="button" class="button">Strony</button></li>
+        <li><button type="button" class="button">Aplikacje</button></li>
+        <li><button type="button" class="button">Dizajn</button></li>
+        <li><button type="button" class="button">Marketing</button></li>
+      </ul>
+      <ul class="container product-box">
+        <li class="product-card">
+          <img src="./images/img.jpg" alt="laptop" width="370" height="294" />
+          <p class="product-top">Technocrack</p>
+          <p class="product-text">Strona internetowa</p>
+        </li>
+        <li class="product-card">
+          <img
+            src="./images/img-2.jpg"
+            alt="gracze NBA"
+            width="370"
+            height="294"
+          />
+          <p class="product-top">Grafika New Orlean vs Golden Star</p>
+          <p class="product-text">Dizajn</p>
+        </li>
+        <li class="product-card">
+          <img
+            src="./images/img-3.jpg"
+            alt="logo restauracji"
+            width="370"
+            height="294"
+          />
+          <p class="product-top">Restauracja Seafood</p>
+          <p class="product-text">Aplikacja</p>
+        </li>
+        <li class="product-card">
+          <img
+            src="./images/img-4.jpg"
+            alt="słuchawki"
+            width="370"
+            height="294"
+          />
+          <p class="product-top">RProjekt Prime/p></p>
+          <p class="product-text">Marketing</p>
+        </li>
+        <li class="product-card">
+          <img
+            src="./images/img-5.jpg"
+            alt="pudełka"
+            width="370"
+            height="294"
+          />
+          <p class="product-top">Projekt Boxes</p>
+          <p class="product-text">Aplikacja</p>
+        </li>
+        <li class="product-card">
+          <img
+            src="./images/img-6.jpg"
+            alt="komputer"
+            width="370"
+            height="294"
+          />
+          <p class="product-top">Inspiration has no Borders</p>
+          <p class="product-text">Strona internetowa</p>
+        </li>
+        <li class="product-card">
+          <img
+            src="./images/img-7.jpg"
+            alt="magazyn"
+            width="370"
+            height="294"
+          />
+          <p class="product-top">Magazyn Limited Edition</p>
+          <p class="product-text">Dizajn</p>
+        </li>
+        <li class="product-card">
+          <img src="./images/img-8.jpg" alt="fiszka" width="370" height="294" />
+          <p class="product-top">Projekt LAB</p>
+          <p class="product-text">Marketing</p>
+        </li>
+        <li class="product-card">
+          <img src="./images/img-9.jpg" alt="laptop" width="370" height="294" />
+          <p class="product-top">Growing Business</p>
+          <p class="product-text">Aplikacja</p>
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <a href="./index.html" class="logo-style no-underline white-logo"
+          ><span class="text-blue">Web</span>studio</a
+        >
+        <address class="adress-text">
+          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+        </address>
+        <ul class="link-footer no-margin">
+          <li>
+            <a
+              href="mailto:info@example.com"
+              class="info-email-footer text-blue"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a
+              href="telto:+48111111111"
+              class="info-email-footer no-underline text-blue"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
