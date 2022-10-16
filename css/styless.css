@@ -1,0 +1,224 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background-color: #e5e5e5;
+}
+.main-box {
+  background-color: #2f303a;
+  font-family: inherit;
+}
+
+h1 {
+  font-size: 44px;
+  color: white;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.button-main {
+  background-color: #2196f3;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  box-align: center;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: none;
+  cursor: pointer;
+}
+
+.lorem {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+h2 {
+  color: #212121;
+  font-size: 36px;
+  font-weight: "700";
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.descriptionlorem {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.membersname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.workofmembers {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+button {
+  font-family: inherit;
+  color: #212121;
+  font-weight: "500";
+  font-size: 16px;
+  line-height: "1.6";
+  background-color: #e5e5e5;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #2196f3;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+nav {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: "500";
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+nav :hover {
+  color: #2196f3;
+}
+nav :focus {
+  color: #2196f3;
+}
+nav :active {
+  color: #2196f3;
+}
+
+nav > a {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-weight: "700";
+  font-size: 26px;
+}
+.logo > .blue {
+  color: #2196f3;
+}
+
+ul {
+  list-style-type: none;
+}
+.contact {
+  text-decoration: none;
+  color: #757575;
+  font-size: 14px;
+  font-weight: "500";
+  line-height: 1.17;
+}
+.contact:hover {
+  color: #2196f3;
+}
+
+.imagesdescription {
+  color: #212121;
+  font-weight: "700";
+  font-size: 18px;
+  line-height: 2;
+}
+.signdescription {
+  color: #757575;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8px;
+}
+
+.studioname {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.highlight {
+  color: #000000;
+}
+.highlightwhite {
+  color: #ffffff;
+}
+
+.topline {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.portoflio {
+  color: #2196f3;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+}
+
+.mailadress {
+  color: #757575;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.telnumber {
+  color: #757575;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.buttons {
+  color: #212121;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.backround {
+  background: #2f303a;
+}
+.cityadress {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+ul {
+  list-style-type: none;
+}
+font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
